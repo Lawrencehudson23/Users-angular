@@ -1,0 +1,8 @@
+<h1>Users</h1>
+<hr />
+<ul *ngFor="let user of users">
+  <li>
+    <strong>{{ user.name }}</strong
+    >- this user was created on {{ user.created_at }}
+  </li>
+</ul>
